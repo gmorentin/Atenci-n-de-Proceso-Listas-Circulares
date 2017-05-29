@@ -19,7 +19,6 @@ namespace ATENCION_DE_PROCESOS_LISTAS
         private int vidaProceso;
         private int ciclosVacio;
         private int numMayor;
-        //private int EnQueCiclo;
         private int totalAtendidos;
         private string reporte;
 
@@ -84,7 +83,6 @@ namespace ATENCION_DE_PROCESOS_LISTAS
                 if (numMayor < listaProcesos.cont)
                 {
                     numMayor = listaProcesos.cont;
-                    //_EnQueCiclo = i;
                 }
             }
 
